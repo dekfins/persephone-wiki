@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/house-rules/on-radiation-poisoning/","dg-note-properties":{}}
 ---
 
-In Persephone, radiation poisoning is divided into Acute and Chronic.
+**Acute and Chronic are parallel tracks.** Acute CON loss does not add Rads unless specified. Rads do not trigger CON loss until the 10-stack threshold. A character can suffer fatal CON damage while sitting at 0 Rads, or drown in Rads with full CON. Both kill you. Differently.
 
 **Acute:**
 Radiation is a slow killer in small doses, and a quick end in larger ones. Targets exposed to dangerous amounts of radiation must make a Physical saving throw at intervals depending on the strength of the glow. Mildly dangerous zones might force a save once per day or once per hour, up to lethal rad zones that force multiple saves per round. Vacc suits and other forms of protection can effectively shield a wearer from weaker sources of radiation. 
@@ -14,13 +14,13 @@ Someone who has suffered a fatal dose of radiation poisoning can only be saved b
 **Chronic:**
 For low-level, constant exposure radiation, players gain Rads, which stack.
 
-| Rads (stacks) | Penalty                                                                                 |
-| ------------- | --------------------------------------------------------------------------------------- |
-| 0-3           | No effect. 1-3: roleplay flavor (Geiger clicks, metallic taste)                         |
-| 4-5           | -1 to all Phys checks and saves                                                         |
-| 6-7           | -1 to all checks and saving throws                                                      |
-| 8-9           | -2 to all checks and saves. Vomiting, dizziness ensues                                  |
-| 10            | -2 to all checks and saves. Additionally, make 1 Phys save/day, failure lowers Con by 1 |
+| Rads (stacks) | Penalty                                                                                                           |
+| ------------- | ----------------------------------------------------------------------------------------------------------------- |
+| 0-3           | No effect. 1-3: roleplay flavor (Geiger clicks, metallic taste)                                                   |
+| 4-5           | -1 to all Phys checks and saves                                                                                   |
+| 6-7           | -1 to all checks and saving throws                                                                                |
+| 8-9           | -2 to all checks and saves. Vomiting, dizziness ensues                                                            |
+| 10            | Acute cellular breakdown. -2 to all checks and saves. Additionally, make 1 Phys save/day, failure lowers Con by 1 |
 
 **Accumulation Methods:**
 - **Reactor maintenance:** Each time a character fails a Fix-based skill check during reactor maintenance, they suffer a minor radiation leak. Make a Physical Effect save. Failure: +1 Rad. Critical failure: +2 Rads.

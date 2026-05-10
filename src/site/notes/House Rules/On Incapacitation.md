@@ -15,3 +15,5 @@ When a character fails a Physical save against anti-rad overdose, they are incap
 - **Cannot administer medication.** Including anti-rad meds, stims, or even their own g-suit adjustments. Someone else has to pop the pill or inject them.
 
 - **If forced into combat:** They can cower, take Cover actions if physically shoved, but cannot fight back. Attacks against them have a +2 bonus to hit due to their sluggishness if they're not behind total cover.
+
+- **Duration:** 24 hours. Can be reduced to 6 hours with Int/Heal DC 10 + IV fluids + electrolyte paste (standard medkit items). Does not remove the overdose penalty or restore Rads/CON.
