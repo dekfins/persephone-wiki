@@ -2,13 +2,13 @@
 {"dg-publish":true,"permalink":"/house-rules/on-incapacitation/","dg-note-properties":{}}
 ---
 
-**Duration:** 24 hours. The clock starts the moment the failed Phys save resolves.
+# On Incapacitation
 
-**Effects:**
+When a character fails a Physical save against anti-rad overdose, they are incapacitated for 24 hours. While incapacitated:
 
-- **No actions or reactions.** The character cannot make attack rolls, skill checks, Psychic powers, movement, or any other action requiring conscious intent. They're too busy vomiting, shaking, or being semi-lucid.
+- **No actions or reactions.** The character cannot make attack rolls, skill checks, movement, or any other action requiring conscious intent. They're too busy vomiting, shaking, or being semi-lucid.
 
-- **Defenseless.** They suffer a **-2 penalty to all saving throws** (Physical, Mental, Evasion) during this period. Their body is a wreck, and their reflexes are shot.
+- **Defenseless.** They suffer a **-2 penalty to all saving throws** (Physical, Mental, Evasion) during this period. Their body is a wreck, and their reflexes are cooked.
 
 - **Movement impaired.** If they must move (carried, dragged, or crawling to a berth), they do so at **half speed** and cannot run. They can be carried by another crew member, counting as half their normal encumbrance if that matters.
 

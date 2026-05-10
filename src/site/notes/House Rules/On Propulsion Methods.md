@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/house-rules/on-propulsion-methods/","dg-note-properties":{}}
 ---
 
+# On Propulsion Methods
+
 NOTE: Isp is measured in dv/unit (km/s), not seconds.
 Engines with afterburner: refer to lower Isp value and multiply TWR by AB factor
 
