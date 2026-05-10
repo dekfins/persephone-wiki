@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/house-rules/on-heritages/","dg-note-properties":{}}
 ---
 
+# On Heritages
+
 Every character picks one at creation. No in between. You were born either under a dome or on dirt.
 
 **SPACER (Rad-Hardened)**
