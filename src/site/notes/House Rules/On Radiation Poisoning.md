@@ -2,8 +2,6 @@
 {"dg-publish":true,"permalink":"/house-rules/on-radiation-poisoning/","dg-note-properties":{}}
 ---
 
-# On Radiation Poisoning
-
 In Persephone, radiation poisoning is divided into Acute and Chronic.
 
 **Acute:**

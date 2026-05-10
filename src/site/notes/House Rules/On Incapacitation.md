@@ -2,8 +2,6 @@
 {"dg-publish":true,"permalink":"/house-rules/on-incapacitation/","dg-note-properties":{}}
 ---
 
-# On Incapacitation
-
 When a character fails a Physical save against anti-rad overdose, they are incapacitated for 24 hours. While incapacitated:
 
 - **No actions or reactions.** The character cannot make attack rolls, skill checks, movement, or any other action requiring conscious intent. They're too busy vomiting, shaking, or being semi-lucid.
