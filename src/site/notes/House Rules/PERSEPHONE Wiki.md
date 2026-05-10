@@ -2,7 +2,12 @@
 {"dg-publish":true,"permalink":"/house-rules/persephone-wiki/","tags":["gardenEntry"],"dg-note-properties":{}}
 ---
 
-Here will be where I put my house rules and shi for the TTRPG Campaign
+
+#### Welcome, passer-by.
+Humanity never cracked lightspeed, but we got very good at burning things, killing each other, and flinging ourselves across the void. Earth is a giant Minecraft wheat farm. The planets are factories, fuel depots, and prisons. Weeks ago, a rock from another star showed up. They're calling it Persephone. Everyone’s gone apeshit. You’re here because you need work, money, or a place to disappear.
+
+### Getting Started
+[[Lore/A Spacer's Survival Pamphlet\|A Spacer's Survival Pamphlet]]
 
 ### House Rules
 [[House Rules/On Heritages\|On Heritages]]
@@ -11,4 +16,6 @@ Here will be where I put my house rules and shi for the TTRPG Campaign
 [[House Rules/On Propulsion Methods\|On Propulsion Methods]]
 
 ### Lore
-[[Lore/A Spacer's Survival Pamphlet\|A Spacer's Survival Pamphlet]]
+Coming soon...
+
+
