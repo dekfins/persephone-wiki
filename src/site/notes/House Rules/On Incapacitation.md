@@ -6,9 +6,9 @@ When a character fails a Physical save against anti-rad overdose, they are incap
 
 - **No actions or reactions.** The character cannot make attack rolls, skill checks, movement, or any other action requiring conscious intent. They're too busy vomiting, shaking, or being semi-lucid.
 
-- **Defenseless.** They suffer a **-2 penalty to all saving throws** (Physical, Mental, Evasion) during this period. Their body is a wreck, and their reflexes are cooked.
+- **Defenseless.** They suffer a -2 penalty to all saving throws (Physical, Mental, Evasion) during this period. Their body is a wreck, and their reflexes are cooked.
 
-- **Movement impaired.** If they must move (carried, dragged, or crawling to a berth), they do so at **half speed** and cannot run. They can be carried by another crew member, counting as half their normal encumbrance if that matters.
+- **Movement impaired.** If they must move (carried, dragged, or crawling to a berth), they do so at half speed and cannot run. They can be carried by another crew member, counting as half their normal encumbrance if that matters.
 
 - **Communication limited.** They can speak in short, gasping sentences, but anything requiring Charisma checks or coherent negotiation is impossible. They might warn the crew of something they see, but they can't pilot, hack, or treat patients.
 
