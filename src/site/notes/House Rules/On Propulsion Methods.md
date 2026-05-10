@@ -15,6 +15,7 @@ Engines with afterburner: refer to lower Isp value and multiply TWR by AB factor
 | Fusion     | AFZP                     | D+He3 + H2        | 9000                            | -   | 1100                        | 32       | Needs >cruiser                                                                           |
 | Antimatter | AM-catalyzed microfusion | AM + D+He3        | 3000                            | -   | 45                          | 10       |                                                                                          |
 | Antimatter | Pure AM                  | AM + H2           | 65000                           | -   | 4000                        | 40       | Needs >cruiser                                                                           |
+
 FUEL TYPES:
 Ar: Widespread. can be scooped from an atmosphere, or bought anywhere
 Xe: Legally? can be bought in established shops. you can get it around the belt for cheaper
@@ -23,6 +24,6 @@ Pellets: Regulated by DAVE. Chance to drop after a mission.
 NSW: black market fuel. there's a reason why dave hates it. it's dirty
 D+He3: Main players are Terragrow subsidiary and POS subsidiary. Can be synthesized through isru. Gated by money, tech and resources. Slow.
 AM: POS has a monopoly on antimatter. 
-fyi: POS is not necessarily the bbegs, you can negotiate with them, and befriend them like humans
+FYI: POS is not necessarily the bbegs, you can negotiate with them, and befriend them like humans
 
 
