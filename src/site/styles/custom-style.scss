@@ -1,13 +1,39 @@
-body {
-    /***
-      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+/*# sourceMappingURL=custom-style.css.map */
+body, .markdown-rendered .navbar {
+    background-color: #000000 !important;
+    color: #39ff14 !important;
+    font-family: "OCR A Extended", "Share Tech Mono", monospace !important;
+}
+
+
+h1, h2, h3, h4 {
+    color: #39ff14 !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+a, .internal-link {
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+a:not([href="/"]):not(.site-name):hover {
+    background-color: #39ff14 !important;
+    color: #000000 !important;
+}
+
+.graph-view-wrapper {
+    border: 1px solid #326232 !important;
+    background: #050505 !important;
+}
+
+.nav-view-outer, .search-container {
+    background-color: #080808 !important;
+    border-right: 1px solid #326232;
+}
+
+code, pre {
+    background-color: #0a0a0a !important;
+    border: 1px solid #39ff14 !important;
+    color: #39ff14 !important;
 }
