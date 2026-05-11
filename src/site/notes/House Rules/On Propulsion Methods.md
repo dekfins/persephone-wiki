@@ -32,13 +32,14 @@ Efficiency is measured in km/s dV per fuel unit. ~1:40 conversion to real-world 
 | ---------------------------------- | ------ | ---------- | ---------------------- | ----- | -------- | --------------------------------------------------------- |
 | **"Old Faithful" Tokamak**         | D+He-3 | 1,000      | Atm: 1.5  • Space: 0.5 | 2#    | 2#       | Atmospheric flight consumes 1 fuel cell per segment/burn. |
 | **"Starburst" Axial Flow Z-Pinch** | D+He-3 | 9,000      | 0.8                    | 3#    | 4#       | Requires cruiser hull or larger.                          |
-|                                    |        |            |                        |       |          |                                                           |
 
 #### Antimatter Engines
 | **Engine**                             | Fuel        | Efficiency | TWR (g) | Power | Fit Cost | Notes                                                                                                                                                  |
 | -------------------------------------- | ----------- | ---------- | ------- | ----- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **"Firefly" AM-Catalyzed Microfusion** | AM + D+He-3 | 4,000      | 0.5     | 2#    | 2#       | Uses picograms of antimatter to spark fusion. Each fuel cell requires a stabilized pellet.                                                             |
 | **"Paperclip" Pure Antimatter**        | AM + H2     | 65,000     | 1g      | 4#    | 4#       | The fastest thing built by humans. Requires cruiser hull minimum. Cannot be purchased outright. Leased via POS contract. Breach = faction retaliation. |
+
+---
 
 #### Fuel Prices
 | Fuel                        | Base Cost     | Availability                                                |
