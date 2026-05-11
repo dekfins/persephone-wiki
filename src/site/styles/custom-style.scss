@@ -14,11 +14,15 @@ h4 {
   text-transform:uppercase;
   letter-spacing:1px
 }
+.markdown-rendered hr {
+  border-color: #39ff14; 
+  border-width: 1px;
+}
 blockquote {
-  border-color: #39ff14 !important;
+  border-color:#39ff14 !important
 }
 li::marker {
-  color: #fff !important;
+  color:#fff !important
 }
 a,
 .internal-link {
