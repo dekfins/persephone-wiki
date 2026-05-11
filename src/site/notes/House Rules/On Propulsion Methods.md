@@ -15,7 +15,6 @@ Engines with afterburner: refer to lower Isp value and multiply TWR by AB factor
 | Fusion     | AFZP                     | D+He3 + H2        | 9000                            | -   | 1100                        | 32       | Needs >cruiser                                                                           |
 | Antimatter | AM-catalyzed microfusion | AM + D+He3        | 3000                            | -   | 45                          | 10       |                                                                                          |
 | Antimatter | Pure AM                  | AM + H2           | 65000                           | -   | 4000                        | 40       | Needs >cruiser                                                                           |
-
 FUEL TYPES:
 Ar: Widespread. can be scooped from an atmosphere, or bought anywhere
 Xe: Legally? can be bought in established shops. you can get it around the belt for cheaper
