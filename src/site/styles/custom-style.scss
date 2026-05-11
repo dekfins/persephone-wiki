@@ -1,70 +1,95 @@
-/*# sourceMappingURL=custom-style.css.map */
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
-
-body, .markdown-rendered .navbar {
-    background-color: #000000 !important;
-    color: #39ff14 !important;
-    font-family: "OCR A Extended", "Share Tech Mono", monospace !important;
+@import"https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap";
+body,.markdown-rendered .navbar {
+  background-color:#000 !important;
+  color:#39ff14 !important;
+  font-family:"OCR A Extended",
+  "Share Tech Mono",
+  monospace !important
 }
-
-
-h1, h2, h3, h4 {
-    color: #39ff14 !important;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+h1,
+h2,
+h3,
+h4 {
+  color:#39ff14 !important;
+  text-transform:uppercase;
+  letter-spacing:1px
 }
-
-a, .internal-link {
-    color: #ffffff !important;
+a,
+.internal-link {
+  color:#fff !important;
+  text-decoration:none !important
+}
+a, a:hover {
     text-decoration: none !important;
 }
-
-a:not([href="/"]):not(.site-name):hover {
+a:hover,
+.internal-link:hover,
+.is-active:hover,
+.active:hover,
+.notelink.is-active:hover,
+.notelink.active:hover {
     background-color: #39ff14 !important;
     color: #000000 !important;
+    text-decoration: none !important;
 }
-
+a:hover *,
+.internal-link:hover *,
+.is-active:hover *,
+.active:hover *,
+.notelink.is-active:hover *,
+.notelink.active:hover * {
+    color: #000000 !important;
+    text-decoration: none !important;
+}
+.site-name:hover, 
+.site-name:hover * {
+    background-color: transparent !important;
+    color: #39ff14 !important;
+    text-decoration: none !important;
+}
 .graph-view-wrapper {
-    border: 1px solid #326232 !important;
-    background: #050505 !important;
+  border:1px solid #326232 !important;
+  background:#050505 !important
 }
-
-.nav-view-outer, .search-container {
-    background-color: #080808 !important;
-    border-right: 1px solid #326232;
+.nav-view-outer,
+.search-container {
+  background-color:#080808 !important;
+  border-right:1px solid #326232
 }
-
-code, pre {
-    background-color: #0a0a0a !important;
-    border: 1px solid #39ff14 !important;
-    color: #39ff14 !important;
+code,
+pre {
+  background-color:#0a0a0a !important;
+  border:1px solid #39ff14 !important;
+  color:#39ff14 !important
 }
-
-.markdown-rendered table, 
-.markdown-rendered th, 
+.markdown-rendered table,
+.markdown-rendered th,
 .markdown-rendered td {
-    border: 1px solid #39ff14 !important; 
-    color: #ffffff !important;      
-    font-family: "OCR A Extended", "Share Tech Mono", monospace !important;
+  border:1px solid #39ff14 !important;
+  color:#fff !important;
+  font-family:"OCR A Extended","Share Tech Mono",monospace !important
 }
-
 .markdown-rendered th {
-    background-color: #0c1c0c !important;
-    text-transform: uppercase !important;
-    letter-spacing: 1px !important;
-    color: #39ff14 !important;
+  background-color:#0c1c0c !important;
+  text-transform:uppercase !important;
+  letter-spacing:1px !important;
+  color:#39ff14 !important
 }
-
 .markdown-rendered tr:nth-child(even) {
-    background-color: #080808 !important;
+  background-color:#080808 !important
 }
-
 .markdown-rendered tr:nth-child(odd) {
-    background-color: #000000 !important; 
+  background-color:#000 !important
 }
-
 .markdown-rendered table {
-    border-collapse: collapse !important;
-    box-shadow: none !important;
-    margin-bottom: 20px !important;
+  border-collapse:collapse !important;
+  box-shadow:none !important;
+  margin-bottom:20px !important
 }
+.filetree-wrapper {
+  background-color: #000 !important;
+}
+.notelink {
+  border-left-color: transparent !important;
+}
+/*# sourceMappingURL=custom-style.css.map */
