@@ -2,27 +2,52 @@
 {"dg-publish":true,"permalink":"/house-rules/on-propulsion-methods/","dg-note-properties":{}}
 ---
 
-NOTE: Isp is measured in dv/unit (km/s), not seconds.
-Engines with afterburner: refer to lower Isp value and multiply TWR by AB factor
+Efficiency is measured in km/s dV per fuel unit. ~1:40 conversion to real-world Isp (seconds). Numbers tweaked for playability.
 
-| Category   | Type                     | Fuel              | Isp (dv/unit, km/s)             | AB  | Thrust (kN)                 | Mass (t) | Note                                                                                     |
-| ---------- | ------------------------ | ----------------- | ------------------------------- | --- | --------------------------- | -------- | ---------------------------------------------------------------------------------------- |
-| Electric   | Hall effect              | Ar, Xe            | 100, 250                        | -   | 4                           | 0.2      |                                                                                          |
-| Electric   | VASIMR                   | Ar, Xe, H2        | (100/180), (200/350), (300/550) | 2x  | 15/30                       | 1        |                                                                                          |
-| Fission    | Fission fragment         | Pellets, H2 (AB)  | 11k Pellets/11k Pellets+1k H2   | 10x | 30/300                      | 18       |                                                                                          |
-| Fission    | NSW                      | Nuclear saltwater | 300/600                         | 2x  | 3800,7600                   | 12       | Encumbrance penalty halved. You permanently have the equivalent of 1 star wanted in GTA. |
-| Fusion     | Tokamak                  | D+He3 + H2        | 225/450                         | -   | 1500 (atm), 200/400 (space) | 20       | Surface to orbit (atm) consumes one fuel cell.                                           |
-| Fusion     | AFZP                     | D+He3 + H2        | 9000                            | -   | 1100                        | 32       | Needs >cruiser                                                                           |
-| Antimatter | AM-catalyzed microfusion | AM + D+He3        | 3000                            | -   | 45                          | 10       |                                                                                          |
-| Antimatter | Pure AM                  | AM + H2           | 65000                           | -   | 4000                        | 40       | Needs >cruiser                                                                           |
-FUEL TYPES:
-Ar: Widespread. can be scooped from an atmosphere, or bought anywhere
-Xe: Legally? can be bought in established shops. you can get it around the belt for cheaper
-H2: Can be bought at places that have hydrogen atmospheres, or water deposits, like earth, jupiter and saturn. Also can be found in smaller quantities on europa, callisto and titan
-Pellets: Regulated by DAVE. Chance to drop after a mission.
-NSW: black market fuel. there's a reason why dave hates it. it's dirty
-D+He3: Main players are Terragrow subsidiary and POS subsidiary. Can be synthesized through isru. Gated by money, tech and resources. Slow.
-AM: POS has a monopoly on antimatter. 
-FYI: POS is not necessarily the bbegs, you can negotiate with them, and befriend them like humans
+#### ENGINE TABLE LEGEND
+- **TWR**: Abstracted acceleration in g. Constant across ship classes. Bigger ships mount proportionally larger/more engines in the same slot.
+- **Power / Fit Cost**: Scale with hull class. Base cost is for a Fighter. Frigate ×2, Cruiser ×3, Capital ×4. Round up. Fit Cost uses SWN mass-point abstraction.
+- **Mode Toggle**: Free action at the start of a burn.
 
+#### Chemical Engines
+| **Engine**                       | Fuel                  | Efficiency | TWR (g) | Power | Fit Cost | Notes                                                                                                               |
+| -------------------------------- | --------------------- | ---------- | ------- | ----- | -------- | ------------------------------------------------------------------------------------------------------------------- |
+| **SABRE Mk22**                   | Atm. H2 + onboard LOX | 12         | 4       | 0     | 1        | Works in atmosphere. Required for Milk Skimming. Useless in vacuum without oxidizer.                                |
+| **"Matchstick" Methalox Rocket** | Methane + LOX         | 10         | 5       | 0     | 1        | Launch vehicles/thrusters, emergency pods. High thrust, zero efficiency. No one uses these for interplanetary work. |
 
+#### Electric Engines
+| Engine                      | Fuel       | Efficiency                                        | TWR (g)                            | Power | Fit Cost | Notes                        |
+| --------------------------- | ---------- | ------------------------------------------------- | ---------------------------------- | ----- | -------- | ---------------------------- |
+| **"Cockroach" Ion Cluster** | Ar, Xe     | 100/250                                           | 0.05                               | 1#    | 1#       | Cheap, reliable, everywhere. |
+| **"Whisper" VASIMR**        | Ar, Xe, H2 | **Mode 1**: 100/200/300 • **Mode 2:** 180/350/550 | **Mode 1:** 0.1 • **Mode 2:** 0.25 | 2#    | 1#       | Toggle modes per burn.       |
+
+#### Fission Engines
+| Engine                                   | Fuel                             | Efficiency                                 | TWR (g)                     | Power | Fit Cost | Notes                                                                                                                                          |
+| ---------------------------------------- | -------------------------------- | ------------------------------------------ | --------------------------- | ----- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| **"Hellspawn" Nuclear Saltwater Rocket** | Enriched Saltwater               | 500                                        | 2                           | 1#    | 2#       | **You are riding a fucking nuke.** Permanently public enemy #1 in civilized ports. Encumbrance penalty halved because nothing slows this down. |
+| **"Ember" Fission Fragment<br>**         | Fission Pellets (+H2 for Mode 2) | Mode 1: 11,000 • Mode 2: 11,000 + 1,000 H2 | Mode 1: 0.01 • Mode 2: 0.15 | 1#    | 2#       | Two modes. Dumping 11 units of hydrogen for every unit of pellets makes thrust tolerable. Requires rare, weaponizable pellets.                 |
+
+#### Fusion Engines
+| **Engine**                         | Fuel   | Efficiency | TWR (g)                | Power | Fit Cost | Notes                                                     |
+| ---------------------------------- | ------ | ---------- | ---------------------- | ----- | -------- | --------------------------------------------------------- |
+| **"Old Faithful" Tokamak**         | D+He-3 | 450        | Atm: 1.5  • Space: 0.5 | 2#    | 2#       | Atmospheric flight consumes 1 fuel cell per segment/burn. |
+| **"Starburst" Axial Flow Z-Pinch** | D+He-3 | 9,000      | 0.8                    | 3#    | 4#       | Requires cruiser hull or larger.                          |
+
+#### Antimatter Engines
+| **Engine**                             | Fuel        | Efficiency | TWR (g) | Power | Fit Cost | Notes                                                                                                                                                  |
+| -------------------------------------- | ----------- | ---------- | ------- | ----- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **"Firefly" AM-Catalyzed Microfusion** | AM + D+He-3 | 4,000      | 0.5     | 2#    | 2#       | Uses picograms of antimatter to spark fusion. Each fuel cell requires a stabilized pellet.                                                             |
+| **"Eventide" Pure Antimatter**         | AM + H2     | 65,000     | 1g      | 4#    | 4#       | The fastest thing built by humans. Requires cruiser hull minimum. Cannot be purchased outright. Leased via POS contract. Breach = faction retaliation. |
+
+#### Fuel Prices
+| Fuel                        | Base Cost     | Availability                                                |
+| --------------------------- | ------------- | ----------------------------------------------------------- |
+| **Argon (Ar)**              | 25 CR         | Trivial. Scoopable from any atmosphere with the right gear. |
+| **Xenon (Xe)**              | 100 CR        | Civilized stations only. Better dV than Ar.                 |
+| **Liquid Hydrogen (LH₂)**   | 250 CR        | Gas giants, water-rich moons. Bulky, boils off.             |
+| **Nuclear Saltwater (NSW)** | 1,500 CR      | Black market only. Price fluctuates.                        |
+| **Fission Pellets**         | Not sold      | DAVE-regulated. Mission rewards or black market.            |
+| **Deuterium / Helium-3**    | 5,000 CR      | Terragrow & POS subsidiaries. ISRU possible.                |
+| **Antimatter (AM)**         | Contract only | POS monopoly. No credit price. Faction leverage required.   |
+
+*Prices scale with hull class: Frigate ×2, Cruiser ×3, Capital ×4. Round up.
