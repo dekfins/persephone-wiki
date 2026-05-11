@@ -50,5 +50,3 @@ Efficiency is measured in km/s dV per fuel unit. ~1:40 conversion to real-world 
 | **Fission Pellets**         | Not sold      | DAVE-regulated. Mission rewards or black market.            |
 | **Deuterium / Helium-3**    | 5,000 CR      | Terragrow & POS subsidiaries. ISRU possible.                |
 | **Antimatter (AM)**         | Contract only | POS monopoly. No credit price. Faction leverage required.   |
-
-*Prices scale with hull class: Frigate ×2, Cruiser ×3, Capital ×4. Round up.
