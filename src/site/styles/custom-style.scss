@@ -1,5 +1,4 @@
 @import"https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap";
-
 body,.markdown-rendered .navbar {
   background-color:#000 !important;
   color:#39ff14 !important;
@@ -7,21 +6,27 @@ body,.markdown-rendered .navbar {
   "Share Tech Mono",
   monospace !important
 }
-
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   color:#39ff14 !important;
   text-transform:uppercase;
   letter-spacing:1px
 }
-
-a, 
-.internal-link {
-    color: #fff !important;
-    text-decoration: none !important;
-    border-bottom: none !important;
-    box-shadow: none !important;
+blockquote {
+  border-color: #39ff14 !important;
 }
-
+li::marker {
+  color: #fff !important;
+}
+a,
+.internal-link {
+  color:#fff !important;
+  text-decoration:none !important;
+  border-bottom:none !important;
+  box-shadow:none !important
+}
 a:hover,
 .internal-link:hover,
 .nav-view-outer .notelink:hover,
@@ -29,13 +34,12 @@ a:hover *,
 .internal-link:hover *,
 .nav-view-outer .notelink:hover *,
 .nav-view-outer .notelink:hover a.internal-link {
-    background-color: transparent !important;
-    color: #39ff14 !important;
-    text-decoration: none !important;
-    border-bottom: none !important;
-    box-shadow: none !important;
+  background-color:rgba(0,0,0,0) !important;
+  color:#39ff14 !important;
+  text-decoration:none !important;
+  border-bottom:none !important;
+  box-shadow:none !important
 }
-
 .notelink.active-page,
 .nav-view-outer .active-page,
 .notelink.active-page a,
@@ -44,42 +48,38 @@ a:hover *,
 .nav-view-outer .active-page *,
 .notelink.active-page:hover,
 .notelink.active-page:hover * {
-    background-color: #39ff14 !important;
-    color: #000000 !important;
-    text-decoration: none !important;
-    border: none !important;
-    border-bottom: none !important;
-    box-shadow: none !important;
+  background-color:#39ff14 !important;
+  color:#000 !important;
+  text-decoration:none !important;
+  border:none !important;
+  border-bottom:none !important;
+  box-shadow:none !important
 }
-
 .site-name,
-.site-name:hover, 
+.site-name:hover,
 .site-name.active-page,
 .site-name *,
 .site-name:hover * {
-    background-color: transparent !important;
-    color: #39ff14 !important;
-    text-decoration: none !important;
-    border-bottom: none !important;
+  background-color:rgba(0,0,0,0) !important;
+  color:#39ff14 !important;
+  text-decoration:none !important;
+  border-bottom:none !important
 }
-
 .graph-view-wrapper {
   border:1px solid #326232 !important;
   background:#050505 !important
 }
-
 .nav-view-outer,
 .search-container {
   background-color:#080808 !important;
   border-right:1px solid #326232
 }
-
-code, pre {
+code,
+pre {
   background-color:#0a0a0a !important;
   border:1px solid #39ff14 !important;
   color:#39ff14 !important
 }
-
 .markdown-rendered table,
 .markdown-rendered th,
 .markdown-rendered td {
@@ -87,32 +87,27 @@ code, pre {
   color:#fff !important;
   font-family:"OCR A Extended","Share Tech Mono",monospace !important
 }
-
 .markdown-rendered th {
   background-color:#0c1c0c !important;
   text-transform:uppercase !important;
   letter-spacing:1px !important;
   color:#39ff14 !important
 }
-
 .markdown-rendered tr:nth-child(even) {
   background-color:#080808 !important
 }
-
 .markdown-rendered tr:nth-child(odd) {
   background-color:#000 !important
 }
-
 .markdown-rendered table {
   border-collapse:collapse !important;
   box-shadow:none !important;
   margin-bottom:20px !important
 }
-
 .filetree-wrapper {
   background-color:#000 !important
 }
-
 .notelink {
   border-left-color:rgba(0,0,0,0) !important
 }
+/*# sourceMappingURL=custom-style.css.map */
