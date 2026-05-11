@@ -4,9 +4,9 @@
 
 Efficiency is measured in km/s dV per fuel unit. ~1:40 conversion to real-world Isp (seconds). Numbers tweaked for playability.
 
-#### ENGINE TABLE LEGEND
+#### Clarification
 - **TWR**: Abstracted acceleration in g. Constant across ship classes. Bigger ships mount proportionally larger/more engines in the same slot.
-- **Power / Fit Cost**: Scale with hull class. Base cost is for a Fighter. Frigate ×2, Cruiser ×3, Capital ×4. Round up. Fit Cost uses SWN mass-point abstraction.
+- **Power / Mass**: Scale with hull class. Base cost is for a Fighter. Frigate ×2, Cruiser ×3, Capital ×4. Round up. Fit Cost uses SWN mass-point abstraction.
 - **Mode Toggle**: Free action at the start of a burn.
 
 #### Chemical Engines
