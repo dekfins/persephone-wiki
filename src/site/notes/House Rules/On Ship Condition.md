@@ -3,7 +3,6 @@
 ---
 
 #### Core Stats
-
 The rules apply to anything from a stolen SCUM skiff to a salvaged torchship.
 
 | Stat                       | Meaning                                                                           | Example                             |
@@ -17,20 +16,18 @@ The rules apply to anything from a stolen SCUM skiff to a salvaged torchship.
 
 ---
 #### Reactor Types
+Every ship has a reactor type and a new attribute called Reactor Integrity. It starts at its maximum and ticks down when things go very wrong. Think of RI not as "safety" but as "how many times can this thing break before it kills you." Standard reactors are stable but brittle - fewer failure modes before catastrophic shutdown. Volatile reactors are ancient nightmares with so many redundant failure points that they take longer to fully die, bleeding Rads the whole way.
 
-Every ship has a reactor type. Integrity starts at its maximum and ticks down when things go very wrong. Think of RI not as "safety" but as "how many times can this thing break before it kills you." Standard reactors are stable but brittle - fewer failure modes before catastrophic shutdown. Volatile reactors are ancient nightmares with so many redundant failure points that they take longer to fully die, bleeding Rads the whole way.
-
-| Reactor Type                                          | Max RI | Degradation Effects                                                                                                                                                                                                  | Example                               |
-| ----------------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
-| **Standard** (fission/fusion, common freighters)      | 4      | **3/4:** reactor maintenance failures cause +1 Rad. **2/4:** crew must make a Physical save vs Acute radiation each segment. **1/4:** meltdown risk; all Rad gains doubled. **0/4:** catastrophic failure.           | Belter hauler, DAVE-registered trader |
-| **Volatile** (ancient, salvaged, or military-surplus) | 6      | **3/6:** reactor maintenance failures cause +2 Rads. **1/6:** Acute save per segment + all Rad gains doubled. **0/6:** prompt criticality. The ship becomes a very small, very bright star.                          | The Toe-Tickler's plutonium nightmare |
-| **Advanced** (antimatter, high-end torchships)        | 8      | **4/8:** containment flickers; maintenance failures add +1 Rad. **2/8:** Acute save per segment. **0/8:** containment loss; the annihilation wave takes the ship and a few kilometers of surrounding vacuum with it. | POS courier, military interceptor     |
+| Reactor Type                                          | Max RI | Degradation Effects                                                                                                                                                                                      | Example                               |
+| ----------------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
+| **Standard** (fission/fusion, common freighters)      | 4      | At 2/4 RI or lower: Reactor Maintenance failures cause +1 Rad. At 1/4: Crew must make Physical saves vs Acute radiation each segment. At 0/4: Catastrophic failure                                       | Belter hauler, DAVE-registered trader |
+| **Volatile** (ancient, salvaged, or military-surplus) | 6      | 3/6: reactor maintenance failures cause +2 Rads. 1/6: Acute save per segment + all Rad gains doubled. 0/6: Prompt criticality. The reactor achieves an uncontrolled chain reaction. Evacuate immediately | The Toe-Tickler's plutonium nightmare |
+| **Advanced** (antimatter, high-end torchships)        | 8      | 4/8: containment flickers; maintenance failures add +1 Rad. 2/8: Acute save per segment. 0/8: containment loss; the annihilation wave takes the ship and a few kilometers of surrounding vacuum with it. | POS courier, military interceptor     |
 
 **Repairing Reactor Integrity** cannot be done in-flight except under extraordinary circumstances (alien superconductor, a Milkman's blessing, a DC 14 Fix check that risks *losing* another point of RI on failure). Full restoration requires a shipyard (Mars, Hephaestus Station, or a Titan orbital dock) and a small mountain of credits.
 
 ---
 #### Active Conditions
-
 Conditions are temporary or semi-permanent debilities that befall a ship through combat, critical failures, or the Travel Table. Each has a **Fix DC** to remove, and a mechanical effect until then. A crew member can attempt to clear one condition by taking the **Ship Maintenance** downtime action or spending an appropriate amount of time during a crisis.
 
 | Condition                     | Effect                                                                                                                                                     | Fix DC                                            |
