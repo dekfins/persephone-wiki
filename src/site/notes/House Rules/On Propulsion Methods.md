@@ -19,7 +19,7 @@ Efficiency is measured in km/s dV per fuel unit. ~1:40 conversion to real-world 
 | Engine                      | Fuel       | Efficiency                                        | TWR (g)                            | Power | Fit Cost | Notes                        |
 | --------------------------- | ---------- | ------------------------------------------------- | ---------------------------------- | ----- | -------- | ---------------------------- |
 | **"Cockroach" Ion Cluster** | Ar, Xe     | 100/250                                           | 0.05                               | 1#    | 1#       | Cheap, reliable, everywhere. |
-| **"Whisper" VASIMR**        | Ar, Xe, H2 | **Mode 1**: 100/200/300 • **Mode 2:** 180/350/550 | **Mode 1:** 0.1 • **Mode 2:** 0.25 | 2#    | 1#       | Toggle modes per burn.       |
+| **"Hummingbird" VASIMR**    | Ar, Xe, H2 | **Mode 1**: 100/200/300 • **Mode 2:** 180/350/550 | **Mode 1:** 0.1 • **Mode 2:** 0.25 | 2#    | 1#       | Toggle modes per burn.       |
 
 #### Fission Engines
 | Engine                                   | Fuel                             | Efficiency                                 | TWR (g)                     | Power | Fit Cost | Notes                                                                                                                                          |
@@ -30,14 +30,15 @@ Efficiency is measured in km/s dV per fuel unit. ~1:40 conversion to real-world 
 #### Fusion Engines
 | **Engine**                         | Fuel   | Efficiency | TWR (g)                | Power | Fit Cost | Notes                                                     |
 | ---------------------------------- | ------ | ---------- | ---------------------- | ----- | -------- | --------------------------------------------------------- |
-| **"Old Faithful" Tokamak**         | D+He-3 | 450        | Atm: 1.5  • Space: 0.5 | 2#    | 2#       | Atmospheric flight consumes 1 fuel cell per segment/burn. |
+| **"Old Faithful" Tokamak**         | D+He-3 | 1,000      | Atm: 1.5  • Space: 0.5 | 2#    | 2#       | Atmospheric flight consumes 1 fuel cell per segment/burn. |
 | **"Starburst" Axial Flow Z-Pinch** | D+He-3 | 9,000      | 0.8                    | 3#    | 4#       | Requires cruiser hull or larger.                          |
+|                                    |        |            |                        |       |          |                                                           |
 
 #### Antimatter Engines
 | **Engine**                             | Fuel        | Efficiency | TWR (g) | Power | Fit Cost | Notes                                                                                                                                                  |
 | -------------------------------------- | ----------- | ---------- | ------- | ----- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **"Firefly" AM-Catalyzed Microfusion** | AM + D+He-3 | 4,000      | 0.5     | 2#    | 2#       | Uses picograms of antimatter to spark fusion. Each fuel cell requires a stabilized pellet.                                                             |
-| **"Eventide" Pure Antimatter**         | AM + H2     | 65,000     | 1g      | 4#    | 4#       | The fastest thing built by humans. Requires cruiser hull minimum. Cannot be purchased outright. Leased via POS contract. Breach = faction retaliation. |
+| **"Paperclip" Pure Antimatter**        | AM + H2     | 65,000     | 1g      | 4#    | 4#       | The fastest thing built by humans. Requires cruiser hull minimum. Cannot be purchased outright. Leased via POS contract. Breach = faction retaliation. |
 
 #### Fuel Prices
 | Fuel                        | Base Cost     | Availability                                                |
