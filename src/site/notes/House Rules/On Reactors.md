@@ -10,8 +10,9 @@ RI decreases through combat damage, critical failures, or extreme events. It can
 ---
 #### Reactors as Fittings
 Every ship has a reactor fitting. The reactor provides **Power** (as per hull class) and has its own health bar, **Reactor Integrity (RI)**. When you buy or salvage a ship, the reactor type determines how much RI you have and what happens when things go wrong.
-Hashmark (#): Base cost is for a Fighter. Frigate ×2, Cruiser ×3, Capital ×4. Round up. 
-Asterisk (\*): Base cost is for a Fighter. Frigate ×10, Cruiser ×25, Capital ×100.
+
+- **Hashmark (#):** Base cost is for a Fighter. Frigate ×2, Cruiser ×3, Capital ×4.
+- **Asterisk (\*):** Base cost is for a Fighter. Frigate ×10, Cruiser ×25, Capital ×100.
 
 | Reactor Type                                | Base Cost | RI  | Power | Mass | Degradation (RI)                                                                        |
 | ------------------------------------------- | --------- | --- | ----- | ---- | --------------------------------------------------------------------------------------- |

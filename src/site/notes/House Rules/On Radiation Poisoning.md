@@ -44,7 +44,7 @@ For low-level, constant exposure radiation, players gain Rads, which stack.
 
 ---
 #### Modifiers
-Rad-Hardened: Rads stack to 12 instead of 10. Penalties take place on 6 stacks instead of 4. Physical saves caused by Acute radiation get a flat +2 bonus.
+**Rad-Hardened:** Rads stack to 12 instead of 10. Penalties take place on 6 stacks instead of 4. Physical saves caused by Acute radiation get a flat +2 bonus.
 
-Softblood: When you suffer an Acute radiation event (fail the Physical save), you gain +1 Rad in addition to the Con loss.
+**Softblood:** When you suffer an Acute radiation event (fail the Physical save), you gain +1 Rad in addition to the Con loss.
 
