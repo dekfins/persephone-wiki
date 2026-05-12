@@ -5,26 +5,13 @@
 #### Core Stats
 The rules apply to anything from a stolen SCUM skiff to a salvaged torchship.
 
-| Stat                       | Meaning                                                                           | Example                             |
-| -------------------------- | --------------------------------------------------------------------------------- | ----------------------------------- |
-| **Hull Integrity (HP)**    | Structural damage. At 0 the ship is a debris field.                               | 15                                  |
-| **Armor**                  | Reduces incoming damage from attacks.                                             | 2 (corrugated plating and spite)    |
-| **TWR**                    | Acceleration in g. Affected by damage and encumbrance.                            | 0.05g (0.04g if a thruster is down) |
-| **dV Cap**                 | Maximum delta-V when fully fueled (km/s). Actual remaining dV tracked separately. | 500 km/s (5 argon cells)            |
-| **Reactor Integrity (RI)** | Health of the power plant. Scale and danger depend on reactor type.               | 6/6 (Volatile)                      |
-| **Active Conditions**      | A list of specific problems: cracked loops, dead thrusters, haunting whispers.    | Usually empty, sometimes tragic     |
-
----
-#### Reactor Types
-Every ship has a reactor type and a new attribute called Reactor Integrity (RI). It starts at its maximum and ticks down when shit hits the fan. Think of RI not as "safety" but as "how many times can this thing break before it kills you." Standard reactors are stable but brittle - fewer failure modes before catastrophic shutdown. Volatile reactors are ancient nightmares with so many redundant failure points that they take longer to fully die, bleeding Rads the whole way.
-
-| Reactor Type                                          | Max RI | Degradation Effects                                                                                                                                                                                      | Example                                          |
-| ----------------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| **Standard** (fission/fusion, common freighters)      | 4      | At 2/4 RI or lower: Reactor Maintenance failures cause +1 Rad. At 1/4: Crew must make Physical saves vs Acute radiation each segment. At 0/4: Catastrophic failure                                       | Belter hauler, DAVE-registered trader            |
-| **Volatile** (ancient, salvaged, or military-surplus) | 6      | 3/6: reactor maintenance failures cause +2 Rads. 1/6: Acute save per segment + all Rad gains doubled. 0/6: Prompt criticality. The reactor achieves an uncontrolled chain reaction. Evacuate immediately | The plutonium nightmare from a 23rd century ship |
-| **Advanced** (antimatter, high-end torchships)        | 8      | 4/8: containment flickers; maintenance failures add +1 Rad. 2/8: Acute save per segment. 0/8: containment loss; the annihilation wave takes the ship and a few kilometers of surrounding vacuum with it. | POS courier, military interceptor                |
-
-RI recovery cannot exceed the reactor’s maximum. RI only drops from combat damage, critical failures, or prolonged neglect.
+| Stat                       | Meaning                                                                        | Example                             |
+| -------------------------- | ------------------------------------------------------------------------------ | ----------------------------------- |
+| **Hull Integrity (HP)**    | Structural damage. At 0 the ship is a debris field.                            | 15                                  |
+| **Reactor Integrity (RI)** | Health of the power plant. Scale and danger depend on reactor type.            | 6/6 (Volatile)                      |
+| **Armor**                  | Reduces incoming damage from attacks.                                          | 2 (corrugated plating and spite)    |
+| **TWR**                    | Acceleration in g. Affected by damage and encumbrance.                         | 0.05g (0.04g if a thruster is down) |
+| **Active Conditions**      | A list of specific problems: cracked loops, dead thrusters, haunting whispers. | Usually empty, sometimes tragic     |
 
 ---
 #### Active Conditions
@@ -41,7 +28,7 @@ Conditions are temporary or semi-permanent debilities that befall a ship through
 | **7**  | **Comms Array Damaged**       | Cannot send or receive long-range transmissions. Vega may lose contact with the crew's ship entirely until fixed.                                                                                                                              | 10                                                |
 | **8**  | **Weapon System Malfunction** | One weapon (if any) becomes inoperable. The multifocal laser now produces only a faint, judgmental hum.                                                                                                                                        | 12                                                |
 | **9**  | **Strange Resonance**         | The ship is resonating weirdly. Low-level vibrations, odd sensor echoes. -1 to all Mental saves for the crew. May attract… attention.                                                                                                          | 14 (requires investigation, not just wrench work) |
-| **10** | **Double Dip**                | Just because one condition wasn't enough. Reroll with 2d10. Take both results. Duplicates are rerolled.                                                                                                                                        | -                                                 |
+| **10** | **Double Dip**                | Just because one condition wasn't enough. Reroll twice and take both results. Duplicates are rerolled.                                                                                                                                         | -                                                 |
 
 * A ship can have multiple conditions at once. They're written on the dashboard in plain language: *"Thruster 3 offline. Cracked coolant loop. Strange resonance (ongoing)."* 
  
