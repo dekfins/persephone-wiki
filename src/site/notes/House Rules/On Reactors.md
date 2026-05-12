@@ -22,3 +22,4 @@ Every ship has a reactor fitting. The reactor provides **Power** (as per hull cl
 | **Standard Fusion**                         | 25k*      | 6   | 0     | 0    | 3/6: maint failures +1 Rad. <br>1/6: 1 Acute save/segment.<br>0/6: Boom.                |
 | **Milspec Fusion**                          | 50k*      | 8   | +2#   | 2#   | 4/8: maint failures +1 Rad. <br>2/8: 1 Acute save/segment.<br>0/8: Boom.                |
 | **Antimatter**                              | -         | 8   | +4#   | 3#   | 4/8: maint failures +1 Rad. <br>2/8: 1 Acute save/segment.<br>0/8: Boom.                |
+|                                             |           |     |       |      |                                                                                         |

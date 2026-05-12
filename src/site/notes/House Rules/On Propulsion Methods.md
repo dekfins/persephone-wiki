@@ -17,10 +17,10 @@
 | **"Matchstick" Methalox Rocket** | 2k*       | 10         | 5       | 0     | 1    | CH4 + LOX             | Fighter       | Launch vehicles/thrusters, emergency pods. High thrust, zero efficiency. |
 
 #### Electric Engines
-| Engine                      | Base Cost | Efficiency                                 | TWR (g)                            | Power | Mass | Fuel       | Class   | Notes                        |
-| --------------------------- | --------- | ------------------------------------------ | ---------------------------------- | ----- | ---- | ---------- | ------- | ---------------------------- |
-| **"Cockroach" Ion Cluster** | 5k*       | 100/250                                    | 0.05                               | 1#    | 1#   | Ar, Xe     | Fighter | Cheap, reliable, everywhere. |
-| **"Hummingbird" VASIMR**    | 15k*      | Mode 1: 100/200/300<br>Mode 2: 180/350/550 | **Mode 1:** 0.1 • **Mode 2:** 0.25 | 2#    | 1#   | Ar, Xe, H2 | Fighter | Toggle modes per burn.       |
+| Engine                      | Base Cost | Efficiency                                 | TWR (g)                             | Power | Mass | Fuel       | Class   | Notes                        |
+| --------------------------- | --------- | ------------------------------------------ | ----------------------------------- | ----- | ---- | ---------- | ------- | ---------------------------- |
+| **"Cockroach" Ion Cluster** | 5k*       | 100/250                                    | 0.05                                | 1#    | 1#   | Ar, Xe     | Fighter | Cheap, reliable, everywhere. |
+| **"Hummingbird" VASIMR**    | 15k*      | Mode 1: 100/200/300<br>Mode 2: 180/350/550 | **Mode 1:** 0.1<br>**Mode 2:** 0.25 | 2#    | 1#   | Ar, Xe, H2 | Fighter | Toggle modes per burn.       |
 
 #### Fission Engines
 | Engine                                   | Base Cost | Efficiency                         | TWR (g)                      | Power | Mass | Fuel                             | Class   | Notes                                                              |
