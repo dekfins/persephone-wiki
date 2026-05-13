@@ -13,7 +13,10 @@ Humanity never cracked lightspeed, but we got very good at burning things, killi
 [[House Rules/On Heritages\|On Heritages]]
 [[House Rules/On Radiation Poisoning\|On Radiation Poisoning]]
 [[House Rules/On Incapacitation\|On Incapacitation]]
+[[House Rules/On Starvation\|On Starvation]]
+[[House Rules/On Reactors\|On Reactors]]
 [[House Rules/On Propulsion Methods\|On Propulsion Methods]]
+[[House Rules/On Ship Condition\|On Ship Condition]]
 
 ### Lore
 Coming soon...
