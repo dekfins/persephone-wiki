@@ -43,15 +43,15 @@
 ---
 
 #### Fuel Prices
-| Fuel                        | Base Cost     | Availability                                                |
-| --------------------------- | ------------- | ----------------------------------------------------------- |
-| **Argon (Ar)**              | 25            | Trivial. Scoopable from any atmosphere with the right gear. |
-| **Xenon (Xe)**              | 100           | Civilized stations only. Better dV than Ar.                 |
-| **Liquid Hydrogen (LH₂)**   | 250           | Gas giants, water-rich moons. Bulky, boils off.             |
-| **Nuclear Saltwater (NSW)** | 1,500         | Black market only. Price fluctuates.                        |
-| **Fission Pellets**         | Not sold      | DAVE-regulated. Mission rewards or black market.            |
-| **Deuterium / Helium-3**    | 5,000         | Terragrow & POS subsidiaries. ISRU possible.                |
-| **Antimatter (AM)**         | Contract only | POS monopoly. No credit price. Faction leverage required.   |
+| Fuel                        | Base Cost | Availability                                                |
+| --------------------------- | --------- | ----------------------------------------------------------- |
+| **Argon (Ar)**              | 25        | Trivial. Scoopable from any atmosphere with the right gear. |
+| **Xenon (Xe)**              | 100       | Civilized stations only. Better dV than Ar.                 |
+| **Liquid Hydrogen (LH₂)**   | 250       | Gas giants, water-rich moons. Bulky, boils off.             |
+| **Nuclear Saltwater (NSW)** | 1,500     | Black market only. Price fluctuates.                        |
+| **Deuterium / Helium-3**    | 5,000     | Terragrow & POS subsidiaries. ISRU possible.                |
+| **Fission Pellets**         | Not sold  | DAVE-regulated. Mission rewards or black market.            |
+| **Antimatter (AM)**         | Not sold  | POS monopoly. No credit price. Faction leverage required.   |
 
 ---
 #### Fuel Fittings
@@ -60,6 +60,6 @@
 | **Fuel Bunker**       | 5k*       | 0     | 1    | Fighter | Stores **5 cells** of a single fuel type. Fuel types cannot be mixed.                                                                                                                                                                                                                  |
 | **Cryofuel Bunker**   | 10k*      | 1     | 1    | Fighter | A Fuel Bunker, but cryo‑cooled. Prevents hydrogen boil‑off. Also necessary for long‑term storage of NSW.                                                                                                                                                                               |
 | **Pellet Magazine**   | 20k*      | 0     | 1    | Frigate | Stores **5 cells** of Fission Pellets. Shielded, reinforced, and stamped with a DAVE compliance serial number. Carrying pellets without a magazine is a violation that earns a 1‑star wanted level.                                                                                    |
-| **Antimatter Bottle** | -         | 2#    | 1#   | Frigate | 1 cell of AM. Self-powered containment.                                                                                                                                                                                                                                                |
+| **Antimatter Bottle** | Not sold  | 2#    | 1#   | Frigate | 1 cell of AM. Self-powered containment.                                                                                                                                                                                                                                                |
 | **Fuel Scoops**       | 5k*       | 0     | 1    | Fighter | Allows atmospheric skimming of **Argon** or **Hydrogen**. Refuelling 1 cell takes one travel segment, plus a Piloting check (DC 12 for gas giants, DC 10 for planetary atmospheres). On a failure the ship takes 1 HP and gains nothing. On a critical fail, roll on the Travel Table. |
 | **ISRU Refinery**     | 50k*      | 2#    | 2#   | Frigate | Synthesises **Deuterium‑Helium‑3** fuel cells from gas giant atmospheres. Produces **1 cell per week** of continuous operation. Requires the ship to be stationary (or in a stable parking orbit) and a working Fuel Scoop.                                                            |
