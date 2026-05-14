@@ -13,8 +13,8 @@
 #### Chemical Engines
 | **Engine**                       | Base Cost | Efficiency | TWR (g) | Power | Mass | Fuel                  | Class         | Notes                                                                    |
 | -------------------------------- | --------- | ---------- | ------- | ----- | ---- | --------------------- | ------------- | ------------------------------------------------------------------------ |
-| **SABRE Mk22**                   | 20k       | 12         | 4       | 0     | 1    | Atm. H2 + onboard LOX | Skimmers only | Works in atmosphere. Required for Milk Skimming.                         |
-| **"Matchstick" Methalox Rocket** | 2k*       | 10         | 5       | 0     | 1    | CH4 + LOX             | Fighter       | Launch vehicles/thrusters, emergency pods. High thrust, zero efficiency. |
+| **SABRE Mk22**                   | 20k       | 12         | 4       | 0     | 1#   | Atm. H2 + onboard LOX | Skimmers only | Works in atmosphere. Required for Milk Skimming.                         |
+| **"Matchstick" Methalox Rocket** | 2k*       | 10         | 5       | 0     | 1#   | CH4 + LOX             | Fighter       | Launch vehicles/thrusters, emergency pods. High thrust, zero efficiency. |
 
 #### Electric Engines
 | Engine                      | Base Cost | Efficiency                                 | TWR (g)                             | Power | Mass | Fuel       | Class   | Notes                        |
