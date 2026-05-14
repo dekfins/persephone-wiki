@@ -23,10 +23,10 @@
 | **"Hummingbird" VASIMR**    | 15k*      | Mode 1: 100/200/300<br>Mode 2: 180/350/550 | **Mode 1:** 0.1<br>**Mode 2:** 0.25 | 2#    | 1#   | Ar, Xe, H2 | Fighter | Toggle modes per burn.       |
 
 #### Fission Engines
-| Engine                                   | Base Cost | Efficiency                         | TWR (g)                      | Power | Mass | Fuel                             | Class   | Notes                                                              |
-| ---------------------------------------- | --------- | ---------------------------------- | ---------------------------- | ----- | ---- | -------------------------------- | ------- | ------------------------------------------------------------------ |
-| **"Hellspawn" Nuclear Saltwater Rocket** | 10k*      | 500                                | 2                            | 1#    | 2#   | Enriched Saltwater               | Fighter | **Permanent 1* rating like in GTA.** Encumbrance penalties halved. |
-| **"Ember" Fission Fragment<br>**         | 60k*      | Mode 1: 11k<br>Mode 2: 11k + 1k H2 | Mode 1: 0.01<br>Mode 2: 0.15 | 1#    | 2#   | Fission Pellets (+H2 for Mode 2) | Frigate | Two modes. Mode 2 consumes Pellets and H2 in a 11:1 ratio.         |
+| Engine                                   | Base Cost | Efficiency                         | TWR (g)                      | Power | Mass | Fuel                             | Class   | Notes                                                      |
+| ---------------------------------------- | --------- | ---------------------------------- | ---------------------------- | ----- | ---- | -------------------------------- | ------- | ---------------------------------------------------------- |
+| **"Hellspawn" Nuclear Saltwater Rocket** | 10k*      | 500                                | 2                            | 1#    | 2#   | Enriched Saltwater               | Fighter | Everyone flags you as a war crime.                         |
+| **"Ember" Fission Fragment<br>**         | 60k*      | Mode 1: 11k<br>Mode 2: 11k + 1k H2 | Mode 1: 0.01<br>Mode 2: 0.15 | 1#    | 2#   | Fission Pellets (+H2 for Mode 2) | Frigate | Two modes. Mode 2 consumes Pellets and H2 in a 11:1 ratio. |
 
 #### Fusion Engines
 | **Engine**                         | Base Cost | Efficiency | TWR (g)                | Power | Mass | Fuel   | Class   | Notes                                                     |
