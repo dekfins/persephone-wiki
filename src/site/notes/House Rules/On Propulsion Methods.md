@@ -54,7 +54,16 @@
 | **Antimatter (AM)**         | Not sold | POS monopoly. No credit price. Faction leverage required.   |
 
 ---
-#### Fuel Fittings
+#### 1. Internal Fuselage Storage
+Every ship, no matter how stripped, has plumbing and a single small tank integrated into the hull frame. Before any fuel fittings are installed, the ship holds **1 unit** of a single fuel type in this internal fuselage storage. That fuel can be methalox, argon, xenon, liquid hydrogen, or nuclear saltwater. One unit. No more. This is the emergency reserve, the "get us to the next station" tank. If the ship has no fuel bunkers, this is all it has.
+
+#### 2. First Fuel Bunker
+The moment you install a **Fuel Bunker** (or any upgraded tank), the fuel moves from the fuselage to the bunker. The internal plumbing is rerouted. The ship's maximum fuel storage jumps from 1 to **5 units**. The fuselage tank doesn't disappear—it becomes a backup header tank, only accessed when the main bunkers run dry.
+
+#### 3. Subsequent Bunkers
+Every additional fuel bunker adds **5 more units** of capacity. The progression is 1 (no bunker) > 5 (one bunker) > 10 (two bunkers) > 15 (three bunkers) > and so on.
+
+#### 4. Fuel Fittings
 | Fuel Fitting          | Base Cost | Power | Mass | Class   | Effect                                                                                                                                                                                                                                                                                 |
 | --------------------- | --------- | ----- | ---- | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Fuel Bunker**       | 5k*       | 0     | 1    | Fighter | Stores **5 cells** of a single fuel type. Fuel types cannot be mixed.                                                                                                                                                                                                                  |
@@ -63,3 +72,6 @@
 | **Antimatter Bottle** | Not sold  | 2#    | 1#   | Frigate | 1 cell of AM. Self-powered containment.                                                                                                                                                                                                                                                |
 | **Fuel Scoops**       | 5k*       | 0     | 1    | Fighter | Allows atmospheric skimming of **Argon** or **Hydrogen**. Refuelling 1 cell takes one travel segment, plus a Piloting check (DC 12 for gas giants, DC 10 for planetary atmospheres). On a failure the ship takes 1 HP and gains nothing. On a critical fail, roll on the Travel Table. |
 | **ISRU Refinery**     | 50k*      | 2#    | 2#   | Frigate | Synthesises **Deuterium‑Helium‑3** fuel cells from gas giant atmospheres. Produces **1 cell per week** of continuous operation. Requires the ship to be stationary (or in a stable parking orbit) and a working Fuel Scoop.                                                            |
+
+#### 5. Mixed Fuel Loadouts
+A ship can carry multiple fuel types by installing separate bunkers. For example, one Cryofuel Bunker for D+He³ (5 units), one standard Fuel Bunker for argon (5 units), one Fissionables Tank for particles (5 units). Each bunker is dedicated to a single fuel type. Changing a bunker's fuel type requires a shipyard flush that costs 10% of the bunker's base cost in labor.
