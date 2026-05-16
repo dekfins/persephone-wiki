@@ -14,12 +14,13 @@ Every ship has a reactor fitting. The reactor provides **Power** (as per hull cl
 - **Hashmark (#):** Base cost is for a Fighter. Frigate ×2, Cruiser ×3, Capital ×4.
 - **Asterisk (\*):** Base cost is for a Fighter. Frigate ×10, Cruiser ×25, Capital ×100.
 
-| Reactor Type                                         | Base Cost | RI  | Power | Mass | Degradation (RI)                                                                        |
-| ---------------------------------------------------- | --------- | --- | ----- | ---- | --------------------------------------------------------------------------------------- |
-| **Basic Fission**                                    | 5k*       | 4   | 0     | 0    | 2/4: maintenance failures +1 Rad. <br>1/4: 1 Acute radiation save/segment<br>0/4: Boom. |
-| **Refurbished Fission (pre-24th century, Volatile)** | 2k*       | 6   | 0     | 1#   | 3/6: maint failures +2 Rad. <br>1/6: 1 Acute save, Rads doubled.<br>0/6: Boom.          |
-| **Reinforced Fission**                               | 15k*      | 6   | 0     | 1#   | 2/6: maint failures +1 Rad. <br>1/6: 1 Acute radiation save/segment<br>0/6: Boom.       |
-| **Standard Fusion**                                  | 25k*      | 6   | 0     | 0    | 3/6: maint failures +1 Rad. <br>1/6: 1 Acute save/segment.<br>0/6: Boom.                |
-| **Milspec Fusion**                                   | 50k*      | 8   | +2#   | 2#   | 4/8: maint failures +1 Rad. <br>2/8: 1 Acute save/segment.<br>0/8: Boom.                |
-| **Antimatter**                                       | -         | 8   | +4#   | 3#   | 4/8: maint failures +1 Rad. <br>2/8: 1 Acute save/segment.<br>0/8: Boom.                |
+| Reactor Type                       | Base Cost | RI  | Power | Mass | Degradation (RI)                                                                        |
+| ---------------------------------- | --------- | --- | ----- | ---- | --------------------------------------------------------------------------------------- |
+| **Fleet-Grade Fission Core**       | 5k*       | 4   | 0     | 0    | 2/4: maintenance failures +1 Rad. <br>1/4: 1 Acute radiation save/segment<br>0/4: Boom. |
+| **Refurbished Heavy Fission Core** | 2k*       | 6   | 0     | 1#   | 3/6: maint failures +2 Rad. <br>1/6: 1 Acute save, Rads doubled.<br>0/6: Boom.          |
+| **Heavy Fission Core**             | 10k*      | 6   | 0     | 1#   | 2/6: maint failures +1 Rad. <br>1/6: 1 Acute radiation save/segment<br>0/6: Boom.       |
+| **Commercial Fusion Core**         | 25k*      | 6   | 0     | 0    | 3/6: maint failures +1 Rad. <br>1/6: 1 Acute save/segment.<br>0/6: Boom.                |
+| **Milspec Fusion**                 | 50k*      | 8   | +2#   | 2#   | 4/8: maint failures +1 Rad. <br>2/8: 1 Acute save/segment.<br>0/8: Boom.                |
+| **Antimatter**                     | -         | 8   | +4#   | 3#   | 4/8: maint failures +1 Rad. <br>2/8: 1 Acute save/segment.<br>0/8: Boom.                |
+
 
